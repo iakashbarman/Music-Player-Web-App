@@ -1,0 +1,59 @@
+.flex{
+    display: flex;
+}
+.justify-centre{
+    justify-content: center;
+}
+.items-centre{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: #000000;
+    color: #ffffff;
+}
+.bg-grey{
+    background-color: #121212;
+    color: #ffffff;
+}
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+/* For selection in Website */
+
+::selection{
+    background-color: #1ed760;
+}
+
+/* For Scrolling */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+
+input[type="range"] {
+    width: 75px;
+    height: 5px;
+    accent-color: #333;
+}
+

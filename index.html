@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded p-1">
+
+                <div class="logo"><img src="/images/logo.svg" width="100px" class="invert" alt="logo"></div>
+
+                <div class="close invert"><img src="/images/close.svg" alt=""></div>
+
+                <ul>
+                    <li><img src="/images/home.svg" class="invert" alt="home">Home</li>
+                    <li><img src="/images/search.svg" class="invert" alt="search">Search</li>
+                </ul>
+
+            </div>
+
+            <div class="library bg-grey rounded p-1">
+
+                <div class="heading">
+                    <img src="/images/playlist.svg" class="invert" alt="">
+
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="songsList">
+                    <ul>
+                        <!-- <li><img src="/images/music.svg" alt="music" class="invert">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playNow">
+                                <span>Play Now</span>
+                                <img src="/images/play.svg" alt="" class="invert">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="">Legal</a></div>
+                    <div><a href="">Privacy Center</a></div>
+                    <div><a href="">Privacy Policy</a></div>
+                    <div><a href="">Cookies</a></div>
+                    <div><a href="">About Ads</a></div>
+                    <div><a href="">Accessibility</a></div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="right bg-grey rounded m-1">
+            <div class="header rounded p-1">
+                <div class="nav">
+                    <div class="hamburger invert"><img src="/images/hamburger.svg">
+                    </div>
+
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+
+                <div class="buttons">
+                    <button class="signupBtn">Sign Up</button>
+                    <button class="loginBtn">Log In</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+
+                <div class="cardContainer m-1">
+
+                    <!-- <div data-folder="ALBUM" class="card">
+                        <div class="play"><img src="/images/hover-play.svg" alt=""></div>
+                        <img src="/images/cover.jpg" alt="">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div data-folder="ALBUM 1" class="card">
+                        <div class="play"><img src="/images/hover-play.svg" alt=""></div>
+                        <img src="/images/cover.jpg" alt="">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div data-folder="ALBUM 2" class="card">
+                        <div class="play"><img src="/images/hover-play.svg" alt=""></div>
+                        <img src="/images/cover.jpg" alt="">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div> -->
+                    
+                </div>
+
+                <div class="playbar p-1">
+
+                    <div class="aboveSeekBar">
+                        <div class="songInfo"></div>
+                        <div class="songButtons">
+                            <img id="prevsong" src="/images/prevsong.svg" alt="" width="24px">
+                            <img id="play" src="/images/play.svg" alt="" width="22px">
+                            <img id="nextsong" src="/images/nextsong.svg" alt="" width="24px">
+                        </div>
+
+                        <div class="timeVol">
+                            <div class="volume">
+                                <img src="/images/volume.svg" alt="" width="20px" id="volume">
+                                <input type="range" name="volume" id="range">
+                            </div>
+                            <div class="songTime"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
