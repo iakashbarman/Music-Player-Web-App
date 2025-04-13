@@ -1,4 +1,4 @@
-# 🎵 Music Player Web App 🎧
+# 🎵 Web Player 🎧
 
 A sleek, responsive and interactive music player built with **HTML**, **CSS**, and **JavaScript**. This web app mimics the core functionality of Spotify—allowing users to play, pause, seek, control volume, navigate between songs and explore albums. It features dynamic content loading, real-time updates, and a clean UI. 🚀
 
